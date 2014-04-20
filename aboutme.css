@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	background-color: #9FB3B2;
+	color: #705065;
+}
+
+h{ font-size: 50px; font-family: Tahoma; font-weight: bold; color: #848490; lin}
+
+#picture {
+	margin: auto; /* centers the image */
+	width: 200px;
+	height: 200px;
+	border-radius: 100px; /* this makes the rounded corners */
+	/* These next two fields are for cross browser compatibility */
+	-webkit-border-radius: 100px; /* for safari */
+	-moz-border-radius: 100px; /* for firefox */
+	background: url(http://fc09.deviantart.net/fs71/f/2014/109/a/b/lilys_face_by_raiinysummer-d7f570a.jpg) no-repeat; /* replace with your own url */
+	
+	 background-size: auto 100%;
+
+
+	 background-size: 100% auto; 
+	
+}
+
+#mainbox {
+	width: 400px;
+	margin-top: 100px;
+	margin: 100px auto;
+	background-color: #F7F5E0;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+}
